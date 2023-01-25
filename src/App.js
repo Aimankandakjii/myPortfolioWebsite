@@ -5,7 +5,7 @@ function App() {
   return (
     <div>
       <Routes>
-        <Route path="/" element={<Home />}></Route>
+        <Route path="/myPortfolioWebsite" element={<Home />}></Route>
       </Routes>
     </div>
   );
