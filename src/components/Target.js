@@ -4,7 +4,7 @@ import useMousePosition from "./useMousePosition";
 const Target = () => {
   const mousePos = useMousePosition();
   return (
-    <div className=" text-white m-0 md:inline-block hidden">
+    <div className=" text-white m-0  xl:inline-block hidden">
       {/* <div className="text-white mb-0 bg-black w-[100%] px-4z -rotate-[0deg] md:-rotate-[0deg] md:mt-7 lg:px-32">
         <h1 className="font-Akirta px-5 ">
           <spam className="text-yellow-500 md:hidden">try on wide screens</spam>

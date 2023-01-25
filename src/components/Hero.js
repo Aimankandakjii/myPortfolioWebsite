@@ -4,7 +4,6 @@ import useMousePosition from "./useMousePosition";
 
 const Hero = () => {
   const mousePos = useMousePosition();
-  console.log(mousePos);
   return (
     <div className="text-black font-Akirta mb-10">
       <div className="max-w-[800px] mt-[96px] w-full f-screen mx-auto text-center flex flex-col justify-center">

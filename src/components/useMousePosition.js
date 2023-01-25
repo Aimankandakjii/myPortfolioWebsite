@@ -8,7 +8,6 @@ export default function useMousePosition() {
       y: e.pageY,
     });
   };
-  console.log("MOUSE POS");
   useEffect(() => {
     window.addEventListener("mousemove", handleMousePos);
   }, []);
