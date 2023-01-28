@@ -1,4 +1,5 @@
-Welcome to my personal portfolio website, built using React JS. It showcases my skills as a developer 
+# React JS Portfolio Website
+## Welcome to my personal portfolio website, built using React JS. It showcases my skills as a developer 
 To run the code locally, you'll need to have Node.js and npm (Node Package Manager) installed on your machine. Once you have those, you can clone this repository and run the following command in the root directory:
 npm install
 This will install all of the necessary dependencies for the project. Next, you can run:
