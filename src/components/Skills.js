@@ -7,7 +7,7 @@ export default function Skills() {
   const [isloadingSkills, setIsLoadingSkills] = useState(true);
   useEffect(() => {
     fetch(
-      "https://portfolio-78a11-default-rtdb.europe-west1.firebasedatabase.app/skills.json"
+      "https://console.firebase.google.com/project/portfolio-78a11/database/portfolio-78a11-default-rtdb/data/~2F.json "
     )
       .then((res) => {
         return res.json();
